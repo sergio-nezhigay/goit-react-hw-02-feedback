@@ -7,7 +7,7 @@ export const Feedback = ({ good = 0, bad = 0, neutral = 0 }) => {
   console.log('🚀 ~ file: Feedback.jsx:7 ~ Feedback ~ props:', good);
   return (
     <>
-      <Title>Please, leave your feedback</Title>
+      <Title>Please, leave your feedback...</Title>
       <Row>
         <Button>Good</Button>
         <Button>Neutral</Button>
