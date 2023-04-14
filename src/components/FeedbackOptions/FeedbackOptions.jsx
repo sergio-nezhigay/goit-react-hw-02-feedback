@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { Row, Button } from './FeedbackOptions.styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  const capitalize = name => name.charAt(0).toUpperCase() + name.slice(1);
   return (
     <>
       <Row>
@@ -14,7 +13,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
               key={buttonName}
               onClick={() => onLeaveFeedback(buttonName)}
             >
-              {capitalize(buttonName)}
+              {buttonName}
             </Button>
           );
         })}
