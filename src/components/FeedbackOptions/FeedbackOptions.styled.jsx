@@ -1,10 +1,5 @@
 import styled from '@emotion/styled';
 
-export const Title = styled.h2`
-  font-size: 30px;
-  margin-bottom: 30px;
-`;
-
 export const Row = styled.div`
   display: flex;
   gap: 10px;
@@ -24,12 +19,7 @@ export const Button = styled.button`
   &:hover {
     background-color: #ddd;
   }
+  &:active {
+    background-color: #7895f2;
+  }
 `;
-
-export const Info = styled.p`
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 10px;
-`;
-export const List = styled.ul``;
-export const Item = styled.li``;
